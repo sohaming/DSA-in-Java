@@ -12,8 +12,12 @@ public class singleele {
         System.out.println("single ele " + ans);
     }
 }
-/*ans = 0 ^ 1 = 1
-ans = 1 ^ 5 = 6
-ans = 6 ^ 5 = 11
-ans = 11 ^ 1 = 12
-ans = 12 ^8 = 4*/
+/*arr = {4,1,2,1,2}
+
+4 ^ 1 ^ 2 ^ 1 ^ 2
+
+= 4 ^ (1 ^ 1) ^ (2 ^ 2)
+
+= 4 ^ 0 ^ 0
+
+= 4 */
