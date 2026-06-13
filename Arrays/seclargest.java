@@ -13,11 +13,6 @@ public class seclargest {
                 max2 = arr[i];
             }
         }
-
-        if (max2 == 0) {
-            System.out.println("There is no second largest element.");
-        } else {
-            System.out.println("Second largest element is: " + max2);
-        }
+        System.out.println("Second largest ele:" + max2);
     }
 }
